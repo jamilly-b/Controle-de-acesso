@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   if (bluetooth.available()) {
     String comando = bluetooth.readStringUntil('\n');
-    comando.trim(); // Remove espaços em branco ou quebras de linha
+    comando.trim();
 
     Serial.print("Comando recebido: ");
     Serial.println(comando);
