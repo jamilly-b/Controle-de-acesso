@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">bluetooth-arduino</string>
-    <string name="conectar_ao_arduino">Conectar ao Arduino</string>
-    <string name="desligar_led">Desligar LED</string>
-</resources>
